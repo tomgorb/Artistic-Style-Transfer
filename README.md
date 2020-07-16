@@ -8,9 +8,9 @@ Artistic Style Transfer
 - convert content images to *jpg* before doing stylization (*png* have **4** channels).
 
 - pyTorch
- - requirements: torch==1.3.1+cpu
- - usage: ```bash python neural_style.py eval --content-image 01.jpg --model legion.pth --output-image 01-legion.png --cuda 0```
+  - requirements: torch==1.3.1+cpu
+  - usage: ```python neural_style.py eval --content-image 01.jpg --model legion.pth --output-image 01-legion.png --cuda 0```
 
 - TensorFlow
   - requirements: tensorflow==1.15.0, imageio==2.9.0
-  - usage: ```bash python stylize_image.py --content results/01.jpg --network-path models/dora-marr-network --output-path results/01-dora-marr.jpg```
+  - usage: ```python stylize_image.py --content results/01.jpg --network-path models/dora-marr-network --output-path results/01-dora-marr.jpg```
